@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class term
+{
+	public static void main(String args[])
+     {
+	int term=4;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the value of n: ");
+        int n = scanner.nextInt();
+        for(int i=1;i<=n;i++)
+           {
+       	       term=1+(i-1)*4;
+        	System.out.println(term+ " ");	 
+           }
+     }
+}
+	  
+	  
+	  
