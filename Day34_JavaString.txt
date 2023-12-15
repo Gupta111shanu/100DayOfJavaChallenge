@@ -1,0 +1,17 @@
+class Solution
+{
+        public static void main(String[] args) 
+   {
+        String result1 = conRevstr("Geeks", "forGeeks");
+        System.out.println(result1);
+
+        String result2 = conRevstr("Practice", "Geeks");
+        System.out.println(result2);
+    }
+
+    static String conRevstr(String S1, String S2) 
+    {
+        String concatenated = S1 + S2;
+        return new StringBuilder(concatenated).reverse().toString();
+    }
+}
